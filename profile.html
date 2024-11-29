@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="shortcut icon" href="logo_1.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/08707a19e2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="headcont">
+        <div class="pagetitle">
+          <a href="homepage.html" target="_self">
+            Little Read With Joyeta
+          </a>
+        </div>
+        <div class="logo">
+          <a href="homepage.html" target="_self">
+            <img src="logo_1.png" alt="logo" srcset="" id="logo" />
+          </a>
+        </div>
+        <div class="navcont">
+          <nav>
+            <ul>
+              <li>
+                <a href="homepage.html" target="_self" rel="noopener noreferrer">
+                  <span>
+                    <i class="fa-solid fa-house"></i>&nbsp
+                    Homepage
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="courses.html" target="_self" rel="noopener noreferrer"><i
+                    class="fa-solid fa-chalkboard-user"></i>&nbsp Courses</a>
+              </li>
+              <li>
+                <a href="blogs.html" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-blog"></i>&nbsp
+                  Blogs</a>
+              </li>
+              <li>
+                <a href="profile.html" target="_self" rel="noopener noreferrer">
+                  <span>
+                    <i class="fa-solid fa-user"></i>&nbsp
+                    Profile
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Sign Up Form</h2>
+    <form id="signup-form">
+        <label for="signup-name">Name</label>
+        <input type="text" id="signup-name" name="name" placeholder="Enter your name" required>
+        
+        <label for="signup-email">Email Address</label>
+        <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+        
+        <label for="signup-password">Password</label>
+        <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+        
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <h2>Sign In Form</h2>
+    <form id="signin-form">
+        <label for="signin-name">Name</label>
+        <input type="text" id="signin-name" name="name" placeholder="Enter your name" required>
+        
+        <label for="signin-mobile">Mobile Number</label>
+        <input type="tel" id="signin-mobile" name="mobile" placeholder="Enter your mobile number" required>
+        <label>
+            <input type="checkbox" id="whatsapp-checkbox" name="whatsapp-registered">
+            Is this number registered on WhatsApp?
+        </label>
+        
+        <label for="signin-email">Email Address</label>
+        <input type="email" id="signin-email" name="email" placeholder="Enter your email" required>
+        
+        <label for="institute-name">Educational Institute Name</label>
+        <input type="text" id="institute-name" name="institute" placeholder="Enter your institute's name" required>
+        
+        <label for="education-level">Education Level</label>
+        <select id="education-level" name="education-level" required>
+            <option value="" disabled selected>Select your education level</option>
+            <option value="high-school">High School</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="postgraduate">Postgraduate</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <button type="submit">Sign In</button>
+    </form>
+    </main>
+  </body>
+</html>

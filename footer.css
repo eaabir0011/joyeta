@@ -1,0 +1,37 @@
+footer {
+    background-color: #004d40;
+    color: #e3fcec;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .copyright {
+    font-size: 0.9rem;
+  }
+  
+  .socialmedia a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .socialmedia img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .socialmedia a:hover img {
+    transform: scale(1.1);
+  }
+  
